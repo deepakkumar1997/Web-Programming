@@ -32,10 +32,19 @@ switch(Number(ch)){
         }
         break;
     case 3:
-        var n = document.write(window.prompt("Enter a num to find it is prime or not"));
-        do{
-
-        }while(7);
+        var n = window.prompt("Enter a num to find it is prime or not");
+        var count=0;
+        if(n<2)
+            document.write("Not a prime number");
+        else{
+            for(var i=2; i<=Math.sqrt(n); ++i){
+                if(n%i==0)
+                    ++count;
+            }
+            if(count==0)
+                document.write("It is a prime number");
+            else document.write("Not a prime number");
+        }
         break;
     default:
         document.write("Wrong choice! Please try again!");
