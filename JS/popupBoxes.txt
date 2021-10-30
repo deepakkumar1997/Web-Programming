@@ -1,0 +1,25 @@
+Javascript has three kind of popup boxes :
+    > Alert Box
+    > Confirm Box
+    > Prompt Box
+
+Alert Box:
+> When an alert box pops up, the user will have to click "ok" to proceed.
+> Syntax ; alert("Message");
+> alert() is window's object member function so we can use window.alert() as well.
+> Simply alert() will also work.
+> alert() is used when we have to tell something to the user.
+
+Confirm Box:
+> It is used to take confirmation from the user.
+> When confirm box pops up the user will have to click either ok or cancel to proceed.
+> If user clicks ok then box returns true otherwise false
+> Syntax : confirm("Message");
+
+Prompt Box:
+> A prompt box is often used if you want the user to input a value before entering a page.
+> When a prompt box pops up, the user will have to click either "ok" or "cancel" to proceed 
+  after entering an input value.
+> If the user clicks "ok" the box returns the inputed value. If the user clicks "cancel" the box
+  returns null;
+> Syntax: prompt("Message", "default value");
