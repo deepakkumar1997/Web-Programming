@@ -1,0 +1,17 @@
+***************************** FUNCTION ********************************
+> Function is a block of code designed to performed certain action/task.
+Syntax:
+function func-name(variable list){
+    //code
+}
+
+************************ Function Execution *******************************
+> Function is executed when:
+    > Function is invoked from another JS function.
+    > Function is attached with some event and event occurs.
+
+************************* Why Function *******************************
+> Reusablity of code.
+> Script inside function is not executed until functions is invoked.
+
+> If any variable is declared without using var keyword then it global variable(made by compiler)
