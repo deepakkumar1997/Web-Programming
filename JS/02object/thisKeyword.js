@@ -9,6 +9,7 @@ const friend = {
     database: "Filled with heartbreaks and computer science",
     setMode: function(mode){
         this.mode = mode;
+        console.log(this);
         function zone(){
             console.log("Skeching");
         }
@@ -20,9 +21,9 @@ console.log(friend.mode);
 friend.setMode("Stable");// But inside setMode() there is regular function call that is zone() so it
 // will be a function of global object window just like given below
 console.log(friend.mode);
-
+console.log(this);
 function sayFriendName(name){
-    console.log(name);
+    console.log(this,name);
 }
 sayFriendName("Rishav");// regular function call and it is a method of window object
 
