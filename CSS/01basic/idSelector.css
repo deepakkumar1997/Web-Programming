@@ -1,0 +1,5 @@
+#h1{
+    font-size: 40px;
+    color: indianred;
+}
+/* tag selector and class selector can be overriden by id selector but vice-versa is not true. */

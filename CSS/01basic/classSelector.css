@@ -1,0 +1,11 @@
+.head2{
+    font-size: 30px;
+    color: indigo;
+}
+.para1{
+    background-color: khaki;
+    font-weight: bold;
+}
+/* > An element can have more than one class name seperated by white space.
+> Tag selector can be overriden by class selctor but vice-vesra is not true.
+> A class selector can be overriden by a id selector. */

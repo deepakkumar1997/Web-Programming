@@ -1,0 +1,5 @@
+/* We can select more than one tag at a time to apply a specific selector by separating comma: */
+span, div, p, h1{
+    font-size: 30px;
+    color:chartreuse;
+}
