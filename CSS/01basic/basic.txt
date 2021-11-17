@@ -1,0 +1,30 @@
+CSS: It stands for cascading style sheet.
+
+> With the help of css we decorate our web pages.
+
+We can apply a css on web page in three ways:
+    BY:-
+    1> Internal css : Here we use style sub-tag inside head tag to apply css.
+    2> External css : Here we link an external css file in html's file using link tag.
+    3> Inline css : Here we write css direclty inside an html tag using style attribute.
+
+> We can apply all css means all 3 in a single web page.
+> External css will be overriden if an html element contains inline css.
+> External css can be overriden with Internal css and both Internal and external css can be overriden
+  with inline css.
+> External and Internal css can override to each other it depands on which order it is written.
+
+Basic syntax of css:
+selector{
+    property:value;
+    property:value;
+}
+
+> selector means seleting an element from a html page.
+> In css3 we can select an element in 60 ways.
+> A property is a decoration which we have to apply on that html element.
+> So value is nothing but it is the value specified to an property.
+> We have to use colon between property and value.
+
+Ways of selecting html tags or element:
+1> Through an html tag name:

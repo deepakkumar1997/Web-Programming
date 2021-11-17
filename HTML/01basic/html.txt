@@ -1,0 +1,15 @@
+HTML stands for HyperText Markup Language.
+> It is a scripting language. Scripting means a group of instrction or a script for a web page.
+
+> HyperText: A text which is clickable and can be redirected a new or another page.
+> Markup: Markup means tags and with help of these tags we can create HyperText clickable content.
+
+Inline Element: Element takes the only space of what amount a text inside it/ written inside it.
+                span is an inline element.
+
+Block Element: It take space of whole line instead of size of the text.
+               div is a block level element.
+
+Element : Starting tag, ending tag and text between them all whole known as a element.
+Example:
+        <div> Hello Deepak </div>   ------ so this is an element.
